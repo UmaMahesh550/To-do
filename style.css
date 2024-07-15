@@ -1,0 +1,54 @@
+div{
+    text-align: center;
+    margin: 5%;
+}
+h1{
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 3%;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+label{
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    /* text-align: center;    */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li{
+    margin: 2%;
+    list-style-type: none;
+    padding: 10px;
+    background-color:cadetblue;
+}
+li input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    margin-right: 100px;
+    margin-left: 10px;
+ }
+
+li span{
+    font-family: 'Times New Roman', Times, serif; 
+    margin-right: 100px;   
+    font-size: x-large;
+    font-family: cursive;
+}
+li button{
+    background-color: chocolate;
+    padding: 7px;
+    border-radius: 20px;
+    font-weight: 600;
+    float: right;
+    margin-right: 50px;
+}
+.completed{
+    text-decoration:line-through;
+    background-color: grey;
+}
